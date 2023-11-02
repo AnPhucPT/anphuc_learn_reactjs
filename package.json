@@ -1,9 +1,12 @@
 {
+  "homepage": "https://github.com/AnPhucPT/anphuc_learn_reactjs/",
   "name": "anphuc_learn_reactjs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeloy" : "npm run build",
+    "deloy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
